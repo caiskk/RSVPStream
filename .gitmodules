@@ -1,0 +1,3 @@
+[submodule "XGBDIM"]
+	path = XGBDIM
+	url = https://github.com/bowenliee/XGB-DIM-for-RSVP.git
