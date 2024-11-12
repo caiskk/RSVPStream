@@ -29,7 +29,7 @@ Installation
 Clone the repository:
 
 ```bash
-git clone https://github.com/KylinGR/RSVPStream.git
+git clone --recurse-submodules https://github.com/KylinGR/RSVPStream.git
 ```
 
 Navigate to the project directory:
@@ -38,6 +38,15 @@ Navigate to the project directory:
 ```bash
 cd RSVPStream
 ```
+
+If you cloned the repository directly, you can use the following command to update the submodules:
+
+
+```bash
+git submodule update --init --recursive
+
+```
+
 Install the required Python packages:
 
 
